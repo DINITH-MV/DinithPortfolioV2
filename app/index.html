@@ -479,7 +479,7 @@
                             data-size="1400x1050"
                           >
                             <img
-                              src="https://github-readme-stats.vercel.app/api?username=dinith-mv&border_radius=4.7&show_icons=true&locale=en&title_color=ffffff&text_color=000000&icon_color=288e28&bg_color=20,eba94c,fad87e,fced9c&show_icons=true&card_width=480"
+                              src="https://github-readme-stats.vercel.app/api?username=dinith-mv&border_radius=20&show_icons=true&locale=en&title_color=ffffff&text_color=000000&icon_color=288e28&bg_color=20,eba94c,fad87e,fced9c&show_icons=true&card_width=480"
                               class="gallery__image"
                               itemprop="thumbnail"
                               alt="Image description"
@@ -537,93 +537,101 @@
                           </figcaption>
                         </figure>
                         <!-- portfolio gallery single item -->
-                        <figure
-                          class="col-12 col-md-4 gallery__item grid-item animate-card-2"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="./img/portfolio/PROMorganic3.jpeg"
-                            data-image="https://github-readme-stats.vercel.app/api/top-langs/?username=dinith-mv&hide_border=true&layout=donut-vertical&title_color=ffffff&text_color=000000&icon_color=288e28&bg_color=10,2edca4,8dfd6b&show_icons=true&card_width=300"
-                            class="gallery__link"
-                            itemprop="contentUrl"
-                            data-size="1400x1200"
+                        <div class="d-flex">
+                          <!-- First item with a flex ratio of 4 -->
+                          <figure
+                            class="gallery__item grid-item animate-card-2"
+                            itemprop="associatedMedia"
+                            itemscope
+                            itemtype="http://schema.org/ImageObject"
+                            style="flex: 4; margin-right: 16px;"
                           >
-                            <img
-                              src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinith-mv&hide_border=true&layout=donut-vertical&title_color=ffffff&text_color=000000&icon_color=288e28&bg_color=10,2edca4,8dfd6b&show_icons=true&card_width=300"
-                              class="gallery__image"
-                              itemprop="thumbnail"
-                              alt="Image description"
-                            />
-                          </a>
-                          <figcaption
-                            class="gallery__descr opposite"
-                            itemprop="caption description"
+                            <a
+                              href="./img/portfolio/PROMorganic3.jpeg"
+                              data-image="https://github-readme-stats.vercel.app/api/top-langs/?username=dinith-mv&hide_border=true&layout=donut-vertical&title_color=ffffff&text_color=000000&icon_color=288e28&bg_color=10,2edca4,8dfd6b&show_icons=true&card_width=300"
+                              class="gallery__link"
+                              itemprop="contentUrl"
+                              data-size="1400x1200"
+                            >
+                              <img
+                                src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinith-mv&hide_border=true&layout=donut-vertical&title_color=ffffff&text_color=000000&icon_color=288e28&bg_color=10,2edca4,8dfd6b&show_icons=true&card_width=300"
+                                class="gallery__image"
+                                itemprop="thumbnail"
+                                alt="Image description"
+                              />
+                            </a>
+                            <figcaption
+                              class="gallery__descr opposite"
+                              itemprop="caption description"
+                            >
+                              <h5 class="opposite">
+                                Robot Character
+                                <small>3D Render</small>
+                              </h5>
+                              <p class="small">
+                                Mauris porttitor lobortis ligula, quis molestie
+                                lorem scelerisque eu. Morbi aliquam enim odio, a
+                                mollis ipsum tristique eu.
+                              </p>
+                            </figcaption>
+                          </figure>
+
+                          <!-- Second item with a flex ratio of 8 -->
+                          <div class="gallery-layout">
+                          <figure
+                            class="gallery__item grid-item animate-card-2"
+                            itemprop="associatedMedia"
+                            itemscope
+                            itemtype="http://schema.org/ImageObject"
+                            style="flex: 8;"
                           >
-                            <h5 class="opposite">
-                              Robot Character
-                              <small>3D Render</small>
-                            </h5>
-                            <p class="small">
-                              Mauris porttitor lobortis ligula, quis molestie
-                              lorem scelerisque eu. Morbi aliquam enim odio, a
-                              mollis ipsum tristique eu.
-                            </p>
-                          </figcaption>
-                        </figure>
+                            <a
+                              href="./img/portfolio/ECO360.jpg"
+                              data-image="https://streak-stats.demolab.com?user=dinith-mv&hide_border=true&card_width=600&border_radius=20&background=45%2CCCCAFB%2CF3B6E2&ring=89066E&fire=89066EAD&currStreakLabel=75047C&currStreakNum=700A89BC&sideNums=07013CD0"
+                              class="gallery__link"
+                              itemprop="contentUrl"
+                              data-size="1400x1200"
+                            >
+                              <img
+                                src="https://streak-stats.demolab.com?user=dinith-mv&hide_border=true&card_width=600&border_radius=20&background=45%2CCCCAFB%2CF3B6E2&ring=89066E&fire=89066EAD&currStreakLabel=75047C&currStreakNum=700A89BC&sideNums=07013CD0"
+                                class="gallery__image"
+                                itemprop="thumbnail"
+                                alt="Image description"
+                              />
+                            </a>
+                            <figcaption
+                              class="gallery__descr"
+                              itemprop="caption description"
+                            >
+                              <h5>
+                                Infinity
+                                <small>3D Illustration</small>
+                              </h5>
+                              <p class="small">
+                                Mauris porttitor lobortis ligula, quis molestie
+                                lorem scelerisque eu. Morbi aliquam enim odio, a
+                                mollis ipsum tristique eu.
+                              </p>
+                            </figcaption>
+                          </figure>
+                        
                         <!-- portfolio gallery single item -->
                         <figure
-                          class="col-12 col-md-6 gallery__item grid-item animate-card-2"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
-                        >
-                          <a
-                            href="./img/portfolio/ECO360.jpg"
-                            data-image="./img/portfolio/ECO360.jpg"
-                            class="gallery__link"
-                            itemprop="contentUrl"
-                            data-size="1400x1050"
-                          >
-                            <img
-                              src="./img/portfolio/ECO360.jpg"
-                              class="gallery__image"
-                              itemprop="thumbnail"
-                              alt="Image description"
-                            />
-                          </a>
-                          <figcaption
-                            class="gallery__descr"
-                            itemprop="caption description"
-                          >
-                            <h5>
-                              Infinity
-                              <small>3D Illustration</small>
-                            </h5>
-                            <p class="small">
-                              Mauris porttitor lobortis ligula, quis molestie
-                              lorem scelerisque eu. Morbi aliquam enim odio, a
-                              mollis ipsum tristique eu.
-                            </p>
-                          </figcaption>
-                        </figure>
-                        <!-- portfolio gallery single item -->
-                        <figure
-                          class="col-12 col-md-6 gallery__item grid-item animate-card-2"
-                          itemprop="associatedMedia"
-                          itemscope
-                          itemtype="http://schema.org/ImageObject"
+                        class="gallery__item grid-item animate-card-2"
+                        itemprop="associatedMedia"
+                        itemscope
+                        itemtype="http://schema.org/ImageObject"
+                        style="flex: 8;"
                         >
                           <a
                             href="./img/portfolio/Frame19.png"
-                            data-image="./img/portfolio/Frame19.png"
+                            data-image="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dinith-mv&theme=swift"
                             class="gallery__link"
                             itemprop="contentUrl"
                             data-size="1400x1050"
                           >
                             <img
-                              src="./img/portfolio/Frame19.png"
+                              src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dinith-mv&theme=swift"
                               class="gallery__image"
                               itemprop="thumbnail"
                               alt="Image description"
@@ -644,6 +652,8 @@
                             </p>
                           </figcaption>
                         </figure>
+                        </div>
+                        </div>
                       </div>
                       <!-- Portfolio Gallery End -->
 
