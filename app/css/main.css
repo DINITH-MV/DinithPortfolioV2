@@ -5361,12 +5361,12 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 768px) {
   .gallery__btn {
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: 0;
     width: auto;
     padding: 0 1.5rem;
-    margin-top: 20px;
+    margin-top: 0;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -5397,8 +5397,8 @@ form textarea:required:valid {
      -moz-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
-  width: 102%;
-  height: 102%;
+  width: 112%;
+  height: 112%;
   background-repeat: no-repeat;
   background-position: center center;
   -moz-background-size: cover;
