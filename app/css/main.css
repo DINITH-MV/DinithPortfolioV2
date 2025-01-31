@@ -5397,8 +5397,8 @@ form textarea:required:valid {
      -moz-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
-  width: 112%;
-  height: 112%;
+  width: 105%;
+  height: 105%;
   background-repeat: no-repeat;
   background-position: center center;
   -moz-background-size: cover;
