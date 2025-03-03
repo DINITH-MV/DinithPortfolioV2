@@ -9,12 +9,12 @@ const About = (props) => {
                     <div className="col-lg-5 col-md-12 col-sm-12">
                         <div className="wpo-about-exprience-wrap">
                             <div className="wpo-about-exprience">
-                                <h2>08</h2>
+                                <h2>03</h2>
                                 <span>Years of Experience</span>
                             </div>
                             <div className="client">
                                 <h3><span data-count="100">100</span>%</h3>
-                                <p>Clients Satisfections</p>
+                                <p>Clients Satisfactions</p>
                             </div>
                         </div>
                     </div>
@@ -30,37 +30,37 @@ const About = (props) => {
                                 <div className="grid">
                                     <div className="grid-inner">
                                         <h3><span data-count="98">98</span>%</h3>
-                                        <p>Figma</p>
+                                        <p>ReactJS</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
                                         <h3><span data-count="92">92</span>%</h3>
-                                        <p>Sketch</p>
+                                        <p>NextJS</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="88">88</span>%</h3>
-                                        <p>Photoshop</p>
+                                        <h3><span data-count="70">70</span>%</h3>
+                                        <p>NodeJS</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="72">72</span>%</h3>
-                                        <p>Illustrator</p>
+                                        <h3><span data-count="72">65</span>%</h3>
+                                        <p>Kotlin</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="43">43</span>%</h3>
-                                        <p>WordPress</p>
+                                        <h3><span data-count="43">64</span>%</h3>
+                                        <p>Python</p>
                                     </div>
                                 </div>
                                 <div className="grid">
                                     <div className="grid-inner">
-                                        <h3><span data-count="37">37</span>%</h3>
-                                        <p>ReactJS</p>
+                                        <h3><span data-count="37">60</span>%</h3>
+                                        <p>Java</p>
                                     </div>
                                 </div>
                             </div>
@@ -98,12 +98,7 @@ const About = (props) => {
                     </defs>
                 </svg>
             </div>
-            <div className="line-shape-1">
-                <img src="images/about/shape1.png" alt="" />
-            </div>
-            <div className="line-shape-2">
-                <img src="images/about/shape2.png" alt="" />
-            </div>
+            
         </div>
     )
 }

@@ -33,7 +33,7 @@ const ServiceSection = (props) => {
     return (
         <div className={`wpo-service-area section-padding ${props.sClass}`} id='service'>
             <div className="container">
-                <SectionTitle Title={'Popular Services'} />
+                <SectionTitle Title={'Popular Projects'} />
                 <div className="wpo-service-wrap">
                     <Nav tabs>
                         <NavItem>
@@ -41,7 +41,7 @@ const ServiceSection = (props) => {
                                 className={`${classnames({ active: activeTab === '1' })}`}
                                 onClick={() => { toggle('1'); }}
                             >
-                                Design
+                                Web Projects
                             </NavLink>
                         </NavItem>
                         <NavItem>
@@ -49,17 +49,10 @@ const ServiceSection = (props) => {
                                 className={`${classnames({ active: activeTab === '2' })}`}
                                 onClick={() => { toggle('2'); }}
                             >
-                                Development
+                                Mobile Applications
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink
-                                className={`${classnames({ active: activeTab === '3' })}`}
-                                onClick={() => { toggle('3'); }}
-                            >
-                                Marketing
-                            </NavLink>
-                        </NavItem>
+                       
                     </Nav>
                     <TabContent activeTab={activeTab}>
                         <TabPane tabId="1">

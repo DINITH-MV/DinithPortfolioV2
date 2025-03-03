@@ -13,7 +13,7 @@ const Hero = () => {
                                 <div className="wpo-static-hero-inner">
                                     <div data-swiper-parallax="300" className="slide-title">
                                         <h2><span>Hi There,</span>
-                                            I'm DINITH VANDERLAN.</h2>
+                                            I'm DINITH VANDERLAN!</h2>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-sub-title">
                                         <h5>Software Engineer Undergraduate</h5>
@@ -32,18 +32,17 @@ const Hero = () => {
             <div className="static-hero-right">
                 <div className="static-hero-img">
                     <div className="static-hero-img-inner">
-                        <img src='images/slider/profile No1.png' style={{"width":"600px"}} alt="" />
-                        <div className="icon-1 floating-item"><img src='images/icon/photoshop.svg' alt="" /></div>
-                        <div className="icon-2 floating-item"><img src='images/icon/illustrator.svg' alt="" /></div>
-                        <div className="icon-3 floating-item"><img src='images/icon/diamond.svg' alt="" /></div>
+                        <img src='images/slider/profile No1.png' style={{"width":"60vh"}} alt="" />
+                        <div className="icon-1 floating-item"><img src='images/icon/nextjs.svg' alt="" /></div>
+                        <div className="icon-2 floating-item"><img src='images/icon/react.svg' style={{"border-radius":"20px"}} alt="" /></div>
+                        <div className="icon-3 floating-item"><img src='images/icon/node.svg' alt="" /></div>
+                        
                         <div className="project floating-item">
                             <div className="icon">
-                                <i className="fi flaticon-verified"></i>
+                            <img src='images/icon/kotlin.svg' style={{"width":"55px","height":"55px","border-radius":"30%","marginRight":"10px"}} alt="" />
+                            <img src='images/icon/python.svg' style={{"width":"60px","height":"60px"}} alt="" />
                             </div>
-                            <div className="p-text">
-                                <h3><span data-count="1500">1500</span>+</h3>
-                                <p>Complete Project</p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -63,21 +62,7 @@ const Hero = () => {
                     </defs>
                 </svg>
             </div>
-            <div className="shape-2">
-                <svg width="1295" height="938" viewBox="0 0 1295 938" fill="none">
-                    <g opacity="0.4" filter="url(#filter0_f_39_4393)">
-                        <circle cx="647.5" cy="561.5" r="247.5" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_39_4393" x="0" y="-86" width="1295" height="1295"
-                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="200" result="effect1_foregroundBlur_39_4393" />
-                        </filter>
-                    </defs>
-                </svg>
-            </div>
+            
             <div className="shape-3">
                 <svg width="752" height="747" viewBox="0 0 752 747" fill="none">
                     <g opacity="0.45" filter="url(#filter0_f_39_4394)">
@@ -93,12 +78,8 @@ const Hero = () => {
                     </defs>
                 </svg>
             </div>
-            <div className="line-shape-1">
-                <img src='images/slider/line-1.png' alt="" />
-            </div>
-            <div className="line-shape-2">
-                <img src='images/slider/line-2.png' alt="" />
-            </div>
+            
+            
         </section>
     )
 }
